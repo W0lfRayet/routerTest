@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00886DBED13660BB36966B0D64733629 /* MarshrouteFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5B8960296075755BE00A37EFA8811A /* MarshrouteFactoryImpl.swift */; };
+		0285CBEC9CFE6BA787FEB8EE838058D1 /* TransitionIdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F5BAEA04A5CB9CF9B80017129665F /* TransitionIdGenerator.swift */; };
+		02AD0D20A09EF62D3465E0F6D5939A37 /* NavigationTransitionStorableParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF111A344B21C7EA0F84CC4136AB80 /* NavigationTransitionStorableParameters.swift */; };
+		0427447CD1C44D86717E9E1EB440BDAA /* PopoverNavigationDismissalAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF60345521A64042C93B2E6185448E /* PopoverNavigationDismissalAnimationContext.swift */; };
+		04284EF7EA7EA66BA3D8253742185F67 /* StrongPeekAndPopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CF316FFDB76566768459C577D9F1B /* StrongPeekAndPopData.swift */; };
+		09268135C3093367EA4BC6AA1BA8F32D /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE621D00BB0F3542C7C9F6E70EB49E8 /* DetailRouter.swift */; };
+		09430BC0522AD58E4F1C113A17867D2D /* TransitionContextsStackClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47C5FF20A5D6DD32F0670280A03C99 /* TransitionContextsStackClient.swift */; };
+		0A95CEB8928D65E17C226A465874A044 /* PeekAndPopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C253937B5FD48F0E2722E3DA02EBE386 /* PeekAndPopData.swift */; };
+		0DA3A5C377D94981F9BBB12A402EDAD8 /* PopoverNavigationPresentationAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0A57A164659CFF874B0365CC866F6 /* PopoverNavigationPresentationAnimationContext.swift */; };
+		11371C9257DAA57088509A739F41CD95 /* PresentationTransitionTargetTransitionsHandlerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC0BB57F2289E261CEC4383A9404FC /* PresentationTransitionTargetTransitionsHandlerBox.swift */; };
+		12ACAB38567466AAFA21A8F04A5E7E6C /* RouterIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4901959CCF95C44393A27D7CDDDAFAA7 /* RouterIdentifiable.swift */; };
+		152B9D26C7C760890C88030471C7D361 /* RouterTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F43BA87D7D337540B0A23DA1F3D78E /* RouterTransitionable.swift */; };
+		163CD9B250F9031E3F4B5B4B2EE1BC34 /* PeekAndPopDataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB0F4F0787C26D8CF0E56CF0AFF037 /* PeekAndPopDataHolder.swift */; };
+		17FFBD594E3CF4FA6C2901239642EFF1 /* ModalNavigationDismissalAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA0429BB62EAAF2CB14F0F7BD1D10F /* ModalNavigationDismissalAnimationLaunchingContext.swift */; };
+		1A30133CE0C670E05826A4D2F1E1EEF6 /* TransitionsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888145870BBBBF7B9A78A48E2229348 /* TransitionsHandler.swift */; };
+		1EEAACAFA32ECF915202D2D475CBD55D /* InternalPeekAndPopState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE5A9C4969B48886926BC77093D21D /* InternalPeekAndPopState.swift */; };
+		241DFF8DEDB2E5C2C2B23E5EB469CDD3 /* PeekRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536E360E44666E776C5F1D66412FEB94 /* PeekRequestData.swift */; };
+		24291EA2E1A923F70DEF8D88180D9A05 /* PopoverNavigationDismissalAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40994BEE0721FF33CCF05D8D15B1158 /* PopoverNavigationDismissalAnimationLaunchingContext.swift */; };
+		2450D6D4AF2DA4509A7A118640663CDB /* TransitionsHandlerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1758E193CF0F7CFAD16AA13340CC0 /* TransitionsHandlerContainer.swift */; };
+		25921BA45FD04AE6D24339587C2BBFC7 /* ResettingNavigationAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC348D7E9F460582F585F8B48B3496 /* ResettingNavigationAnimationContext.swift */; };
+		276D12AE86DD45091806CC5CEA25E770 /* TransitionStorableParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845A06EB7E76865ECFBB2FEABD1F1DE /* TransitionStorableParameters.swift */; };
+		28B8A46DF88B1B68DF3155B65B39C0F5 /* TransitionContextsStackClientProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5956653AA17FF4F4B4C49903AF84BD /* TransitionContextsStackClientProvider.swift */; };
+		292D2DDCEE7A8BA777000F379CCC6D26 /* Pods-Product Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A97AA40F00AACE9EC0981B3C0EB0432 /* Pods-Product Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC527948B6BDE8D82CFC0D74F47A075 /* WeakTransitionsHandlerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51EBC5A0ECBE2DA7287C059816B7AF /* WeakTransitionsHandlerBox.swift */; };
+		2E628B141CAC1B68B6DA728BAB7F0240 /* TransitionsHandlersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB31BE839CD8E1E895F80A3DF5C2E /* TransitionsHandlersProvider.swift */; };
+		2F85D4B5526A84310EAB2196B8E7BA2E /* ModalNavigationDismissalAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657801FD6D48E32D4592B6515856D168 /* ModalNavigationDismissalAnimationContext.swift */; };
+		317E44C43B0855E51A0364482E02D8EF /* ResettingTransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C460D3285E286097E56C4ADB759C33 /* ResettingTransitionContext.swift */; };
+		31FC0AE6466C154E43225EF3C352CA7C /* TransitionsHandlerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDBDE96E298E5E8EA5760F8685E75E /* TransitionsHandlerBox.swift */; };
+		33AA72582DB268D2CB940A005C802F71 /* TransitionsCoordinatorDelegateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0910BED9C152D45CD3F8EC2DF6AFC6A4 /* TransitionsCoordinatorDelegateHolder.swift */; };
+		33D0BDF22F06DEB1E6E6AAD207B30348 /* TransitionsHandlersProviderHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB88FD44E865455B018F80BACBF2DF6 /* TransitionsHandlersProviderHolder.swift */; };
+		39FC7FF610DC7C250320CD655E276824 /* MarshrouteStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C9F497AC8F8DF90156C624C255C51F /* MarshrouteStack.swift */; };
+		3B02F3634C025D4B01A300D7A03B65FE /* TransitionsCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21749262073F6F527F0260FBC6DEDCC /* TransitionsCoordinatorDelegate.swift */; };
+		3D3F930B8BC367D380B342E5EF035D23 /* StrongBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A594479DA83108B97A7F72E1EA1B302 /* StrongBox.swift */; };
+		4446C47D22D38A649C32853D8C37CF03 /* ResettingTransitionTargetTransitionsHandlerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A2438CEEF8B47C4360CA9E5D6AB23 /* ResettingTransitionTargetTransitionsHandlerBox.swift */; };
+		44E50857DE8C77FA4C61B14347526729 /* SplitViewTransitionsHandlerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725B56A014A96C87181196CA9214BE6 /* SplitViewTransitionsHandlerImpl.swift */; };
+		45265FAB2CFA2F59274FAA84F6FC84BF /* PopoverDismissalAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D8188B02EE33639AF48378482AB64 /* PopoverDismissalAnimationContext.swift */; };
+		4B46C50624259D7F5244ED99BCEC3A61 /* ModalMasterDetailDismissalAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B5CF9F145810D0A19C654D84EECBDE /* ModalMasterDetailDismissalAnimationContext.swift */; };
+		4BD40FC810D104DF793503DA9A11173D /* ModalNavigationAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026DBF54EC5553973E70367EA67EEB1 /* ModalNavigationAnimationLaunchingContext.swift */; };
+		4D9D3EEC50F27FB097BA1C7175E19B17 /* DetailRouterTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45AED2B5570CCE47179DEF181329CD /* DetailRouterTransitionable.swift */; };
+		4DB0735DDB79C83727CEF99884B42930 /* TransitionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6910745D6B1B9645B89B3147D8DD4A9 /* TransitionId.swift */; };
+		525A796858A385D8D2B133E3C02CCACB /* SettingAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD0552706D00B572983403C27018FB /* SettingAnimationLaunchingContext.swift */; };
+		578C4ECABA83C6E53F8AE7FAE13AA05F /* TransitionsHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE6E6147A0F7361106F1BBFF21A3DE6 /* TransitionsHistoryItem.swift */; };
+		58645D9D552EAA47600F6C024120E445 /* ViewControllerPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17636D6E7AF2DE42D732670CDC86B529 /* ViewControllerPosition.swift */; };
+		58E91ADF3D6784A96F1216D1D4FE32FE /* PopAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC429EAE1CCE286A7BB6FEA864B7785F /* PopAnimationContext.swift */; };
+		5C8DD7083CFCF66A1DE7B595D097BE89 /* PopoverPresentationAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4731CED1139E9B4964B20D35E5F1EF /* PopoverPresentationAnimationContext.swift */; };
+		5D211EE8C7C55CA3B76084D4A01BE334 /* RouterFocusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035DF05FEC6A992780FBFFDFEC00E09 /* RouterFocusable.swift */; };
+		5D3FA09438F66AB47F5F975830FC38B6 /* MarshrouteSetupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7C11866E5FC033EC924924C2F5D10 /* MarshrouteSetupService.swift */; };
+		5DF1D6DE8AD496C39D879A86C5F8D5C1 /* PopoverPresentationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395AE63AD95FE142F4A94B334D3D2F6 /* PopoverPresentationRouter.swift */; };
+		5E3AB2016B53172948E73340F3BB69D8 /* MarshrouteSetupServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E96CF574903D8B3A55F534D5072DE /* MarshrouteSetupServiceImpl.swift */; };
+		5F4AC7F397103414DF8CB260D5C33417 /* Pods-Product Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3647A9E150AC11F2C3798356906F5D2E /* Pods-Product Test-dummy.m */; };
+		63E4F84EFFA39321042101A9858B33B5 /* TransitionsMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82370DB651CC7CE6900A147D23E5F3D /* TransitionsMarker.swift */; };
+		66DD4362D7B54161BE4389A3C3BA640F /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7D04212A7CE856D95F2091F1D7C53 /* WeakBox.swift */; };
+		67A9FC4F8C6A50AC617F271863AF3D7E /* MasterRouterTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7937E2F8A35287A5A25B3705542221 /* MasterRouterTransitionable.swift */; };
+		6CCF6CF9B0CCAD24E1463E6F47541003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6D8F246D2B0960FD856F04BC9C320191 /* PresentationAnimationLaunchingContextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23245362EB587984886A05CDECFC09AC /* PresentationAnimationLaunchingContextBox.swift */; };
+		6E5FAC5386937EC2BF64D92E58EC17EF /* ModalEndpointNavigationAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A230264742312F484B270217EA74A6D /* ModalEndpointNavigationAnimationLaunchingContext.swift */; };
+		6F06FAEC6D79609793B248F1BE943B9B /* ResettingAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAD86C96972ED4D2983B698C0E5B235 /* ResettingAnimationLaunchingContext.swift */; };
+		700D01031EC76BE9BD71F242CCB5446B /* Marshroute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60893616E3F41094421BB35BA45AFB45 /* Marshroute-dummy.m */; };
+		7220CFCC3707F4FC88D13A8CB429321A /* RestoredTransitionTargetTransitionsHandlerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477C54015F4FC57593C219906B878BA /* RestoredTransitionTargetTransitionsHandlerBox.swift */; };
+		7281AA9F97862B34C6E5ED57A9D1A72E /* NavigationTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B577BC6C52BFA6F7277A365814C832 /* NavigationTransitionsAnimator.swift */; };
+		7321367CA3BFE021435C8DBE9B94B636 /* TransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9BE7C31BAA81B20E551AFC97983C1 /* TransitionsAnimator.swift */; };
+		7549CF1E579007EE60FD1F4C72151801 /* MasterDetailRouterSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA3548F8EF205C34D5C9362101AF1CD /* MasterDetailRouterSeed.swift */; };
+		77DE4D7A096738B60CBF8B0E5C74D184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		801BB90F6ABF0378185223D30A001F4C /* CompletedTransitionTargetTransitionsHandlerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B93647AAC95882796B871E2DDC6B9 /* CompletedTransitionTargetTransitionsHandlerBox.swift */; };
+		810CCB3A83B9B4E2506B8839A6E0F52C /* ModalMasterDetailPresentationAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EF1D9407ED4D2C7F6F7CC22E0D14 /* ModalMasterDetailPresentationAnimationLaunchingContext.swift */; };
+		82B5D82BB658C8462CA5BE9027D8FC09 /* ModalMasterDetailPresentationAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6A5D771C60ABF4CF6BD9C3BA436E2A /* ModalMasterDetailPresentationAnimationContext.swift */; };
+		8420668E8898D5B818938EBFDE3E90CC /* TransitionsCoordinatorHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC583EEC37401CFBD12EC527BF6299BE /* TransitionsCoordinatorHolder.swift */; };
+		84882066478CFD7B1BD4F70AEF9732BB /* TransitionContextsStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B85FB79D27DCB0689B3566A17B4B03 /* TransitionContextsStack.swift */; };
+		85198E128F67536128EF9D5A4683D22F /* SettingNavigationAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983F3BE2D58E21E1E388F34C4F21FBB /* SettingNavigationAnimationContext.swift */; };
+		86238454A93005372CD8335C2129E0BA /* TransitionContextsStackClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4972375D8130C3F6C3EBE82D91BA511 /* TransitionContextsStackClientImpl.swift */; };
+		88A540735A15BA0A833C34779EEF0E25 /* ModalPresentationAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B97A609639C1F62397CF373B4B8FF1B /* ModalPresentationAnimationContext.swift */; };
+		8BD2A01AE09FB38B62C5D13E28164600 /* ModalMasterDetailDismissalAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935D347E635BCCFD26317D6F6DE501F /* ModalMasterDetailDismissalAnimationLaunchingContext.swift */; };
+		8FA6C16ACDDD1324730BE4F571EA8C87 /* CompletedTransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F123AD599BA123D557745152DBDA586 /* CompletedTransitionContext.swift */; };
+		90A1E405BF88FB267BC870497E419B9C /* ModalNavigationPresentationAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73E3FB709248E9DB83C885500B2E9F /* ModalNavigationPresentationAnimationContext.swift */; };
+		95566DECE360B02384DCC2DB925C82A9 /* PresentationTransitionsAnimatorBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D88FA23CB8EED75CA2DCD3CAB3BD8 /* PresentationTransitionsAnimatorBox.swift */; };
+		958F818572DC62CBC0F658374E1465C0 /* RouterSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A683D2E59D5637B7A5CB3DB22825FE3 /* RouterSeed.swift */; };
+		96DC1B6E08EF95F43F57E430FB06E265 /* PopAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A594AD69CF2CD8DF052824E2D5A9FFC6 /* PopAnimationLaunchingContext.swift */; };
+		96E5D7E49A4C3E52804890A9FE8FAF0F /* TransitionsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B4D0A4BB97D05BAD60F1F03BD5B37 /* TransitionsCoordinator.swift */; };
+		96E61A934C91653D4CC845E94B07CF69 /* TransitionContextsStackImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CC799AF9F674A3B634B78AA3DAC85 /* TransitionContextsStackImpl.swift */; };
+		978D8B32BDCCAE4452BFD07EEE437E99 /* PopoverPresentationAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61421F51C75DBC06B39BE608ECFEFCF /* PopoverPresentationAnimationLaunchingContext.swift */; };
+		97A04A64E675A1D743127B8F175AC886 /* ModalPresentationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DBC50C38776127366AA5397B2871F /* ModalPresentationRouter.swift */; };
+		9D144CB5E379F1DAC33957DFB6999755 /* PeekAndPopUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10908DD81823C9620A74089E70A112D /* PeekAndPopUtility.swift */; };
+		A16F1636771EDA397A5C50CB1CE71C4E /* TransitionContextsStackClientProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DF0D31D9237C36F4295B176C806F3 /* TransitionContextsStackClientProviderImpl.swift */; };
+		A343B9AEEEE4E4050F199D9B8548E48D /* RouterControllersProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730A9FA1CB5C67D035E369EE13C4EC3 /* RouterControllersProviderImpl.swift */; };
+		A429C64B95E2B07BC42A31E794584C44 /* PresentationTransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B3BE718E28C3E3BA854E0383026B1 /* PresentationTransitionContext.swift */; };
+		A442DA2E80B20E818699B861F35CF463 /* RouterPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A06676FCEF110F768CE1D1F2D7A2A4 /* RouterPresentable.swift */; };
+		A4B368EA54850676484E4DCA270E8178 /* TransitionIdGeneratorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244278CF9BB5BA1B700AFCC164CC3D0 /* TransitionIdGeneratorImpl.swift */; };
+		A6B548DFE5CA602F5BFE88DB98B73C7B /* ModalDismissalAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD0B6690F5E6852DC7DB08B0DBC858 /* ModalDismissalAnimationContext.swift */; };
+		AA34EAC9F2A1D282EF413E72A951A6E6 /* PushAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B79221237BBA78F99BB14DE1B69C72 /* PushAnimationContext.swift */; };
+		ABBCEB2A75C8A8F07165201EC6E02CCD /* PopoverDismissalAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7696E0EDA12050B01CBE9EC9D212326 /* PopoverDismissalAnimationLaunchingContext.swift */; };
+		AC3B2C0BC287492C1FC448FB8B085935 /* PopoverTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A0608D3B399C6C51F410BCA7195A90 /* PopoverTransitionsAnimator.swift */; };
+		AC9DF4B0B655DC74A7E7DF3DA830679A /* ModalMasterDetailTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE5E2E82F15CD220AF8F7709590D5A /* ModalMasterDetailTransitionsAnimator.swift */; };
+		ACF12F5A231194479AF4579116DADDDD /* ResetNavigationTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732338960E9EAE80713A864641BACD6 /* ResetNavigationTransitionsAnimator.swift */; };
+		AD18CB96A616D4A472FE8DCA858A88DC /* AnimatingTransitionsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB92353EFEBDFB185A8A0681BFCC9AD /* AnimatingTransitionsHandler.swift */; };
+		B1E0DB7E3FE424056D72841F2DB288F5 /* RouterTransitionsHandlerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E62ACA8DE3E4A8FAB02630C9CFD71 /* RouterTransitionsHandlerBox.swift */; };
+		B377A480F7D508C7F6D33D506F2DC53D /* PushAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669F9B21F2BD29D65F43039E8CAA225 /* PushAnimationLaunchingContext.swift */; };
+		B4B5B925E41BC4456AABD98838747820 /* ModalDismissalAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A369E1F3FD8E3731A8011A094E3678 /* ModalDismissalAnimationLaunchingContext.swift */; };
+		B5DDCBF1F6173DA0FB1112EAF9F01A65 /* SetNavigationTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594EB41CB5879FFAAE95A7EF04C86A70 /* SetNavigationTransitionsAnimator.swift */; };
+		B6A8D2D9E06A52E23E9B66988B56AECD /* TransitionsCoordinatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A1541FDC96D600745BC624474FEB /* TransitionsCoordinatorImpl.swift */; };
+		B8EE52CA57D9D672BCB909ABED49B665 /* ModalEndpointNavigationPresentationAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C0AF5E4CCCB4DAB6F456A48E5BDBC /* ModalEndpointNavigationPresentationAnimationContext.swift */; };
+		B93B4C898E36721A519C7B072145314A /* RouterControllersProviderHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC64DEE3C8AF4C9DB9AB5F8EEFBD815 /* RouterControllersProviderHolder.swift */; };
+		B9F5385E764CC8CA313F94BE02B154AC /* TransitionUserId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D601677CDD1830E652F99D16C0EFED1 /* TransitionUserId.swift */; };
+		BBA57C969367780C0EAA2E3DDEBC092A /* WeakPeekAndPopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86BB59E00328C0287DEFAE9EAA9E8A /* WeakPeekAndPopData.swift */; };
+		BE0404CD7CD70EA11E1162C9C3085211 /* ModalPresentationAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73072E3F1C2C64080E576A0EC7AB3058 /* ModalPresentationAnimationLaunchingContext.swift */; };
+		C3E4B11BF2A5604C2956292C1E95D04F /* RouterControllersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D3367210A566F5AEE09F84A78D58A /* RouterControllersProvider.swift */; };
+		C45840714BDEFCE0CA646F1C52EF0B21 /* PopoverTransitionStorableParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F67CAF77BB62EDCF7834830BA1EC4E0 /* PopoverTransitionStorableParameters.swift */; };
+		C46BBF836557D35AE84A2A0D7E3B6010 /* TopViewControllerFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A764EDD44A631DA2582CD07141DCB /* TopViewControllerFinder.swift */; };
+		C5123B0FEBB5D8E01F52DEE296B3B149 /* TransitionIdGeneratorHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507A3BDBE2A2DB6A13A69742B63E328 /* TransitionIdGeneratorHolder.swift */; };
+		C7390392538CCD34C12B0A65A83B5571 /* PopoverTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F82579EAD40B53997DC13EACB58AB2 /* PopoverTransitionStyle.swift */; };
+		C7FEF0CE6B280C529E0FB432CD60AA22 /* ResettingAnimationLaunchingContextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3F70CBDF1CF83421A84B8A70AB67D /* ResettingAnimationLaunchingContextBox.swift */; };
+		CB4562D2808BC4F23237B4219A22A2BB /* MasterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A32515D8D9930AA33B01EEF8868445 /* MasterRouter.swift */; };
+		CC8B70E82CE8904A7F90FF8C2C34A7D8 /* SourceAnimationLaunchingContextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0447911159BC425D6D9D5A54EAFEA6 /* SourceAnimationLaunchingContextBox.swift */; };
+		CDA7AEBB29BADC3FD9859A40BB52756D /* TabBarTransitionsHandlerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF5D60B7DF2B9CA5B7FAC76E0D47A98 /* TabBarTransitionsHandlerImpl.swift */; };
+		CDD6B949B04DF21C2D6499B1E24F8B15 /* DismissalAnimationLaunchingContextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E2187B69655B4808DA6ACFC5C0DA82 /* DismissalAnimationLaunchingContextBox.swift */; };
+		CE01C7282F31FC7D204D9DA077FF0EC1 /* TransitionAnimationsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D7AAB9D1093D0FF623620D8F8EF0 /* TransitionAnimationsLauncher.swift */; };
+		D088E53B68F5FD2096227C3B885C6AD5 /* TransitionContextsStackClientProviderHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35E4FF427A9C20478C235D07A525498 /* TransitionContextsStackClientProviderHolder.swift */; };
+		D211EBE660BB00A1D107301F18B1FDCA /* ModalNavigationTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F3260814FF02394A8B3E98C5D3BDBC /* ModalNavigationTransitionsAnimator.swift */; };
+		D4977CCCF4281BAAFA635F846CA1AC52 /* ContainingTransitionsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C8647EEED0786B60EC33B88E2CAE /* ContainingTransitionsHandler.swift */; };
+		D8CAECDC567A9720CD4A5BAC2DC20F07 /* NavigationTransitionsHandlerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389844811FA7EA38ADB70927343DBF4 /* NavigationTransitionsHandlerImpl.swift */; };
+		DE63AEF8213ECF08AF62A37D31085CF6 /* PeekAndPopStateObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA0FCB9179009E78A4FA3DF16A05DD2 /* PeekAndPopStateObservable.swift */; };
+		DE7A7F1F935C720B556F83333748A1B2 /* ModalTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C4DFF293E9F85826CD79D585E3D99 /* ModalTransitionsAnimator.swift */; };
+		DE9C0A71A162B692CDCF021EFC7A8810 /* PeekAndPopTransitionsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD39434ED1F26A07FB9CF4516475E9 /* PeekAndPopTransitionsCoordinator.swift */; };
+		E13A0BE306E866050084FA611986175F /* PeekAndPopTransitionsCoordinatorHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74084624428FC44C9C84797E2451C3DA /* PeekAndPopTransitionsCoordinatorHolder.swift */; };
+		E274BDD1007F98983D32AEEF0985C358 /* TransitionsMarkersHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0169B368FE3FA69761274A1A42C0E01 /* TransitionsMarkersHolder.swift */; };
+		E436428A1C1A6914C4F0EE0B1AC5D07F /* EndpointRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD928A1847D8D856F9352D3BAB71326B /* EndpointRouter.swift */; };
+		E90B509DA693C36CAA9C986586AE1794 /* ResettingTransitionsAnimatorBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E3B7C8369704542A8BDE7DB92B6FD /* ResettingTransitionsAnimatorBox.swift */; };
+		EF3B68A5E904DE1FD166832BA7207900 /* RouterDismissable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E9F654082AFC79DA3A4DBA4652668 /* RouterDismissable.swift */; };
+		EFE5051A004ECC713046E9D98CC05D9F /* ModalEndpointNavigationTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00F60F4F17C0EA89784D19D5FE232A /* ModalEndpointNavigationTransitionsAnimator.swift */; };
+		F20D23B4577EB4850DD08B1831E97B37 /* Marshroute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1C1761574BD5E61656CB51C7ED6817 /* Marshroute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2120D02EE3FBAA2F01D9B86F9FBDABE /* TransitionsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB1BCC77B8919D89AB762BC3C59D41 /* TransitionsTracker.swift */; };
+		F2ACFC210FEDF4CEF821CE4FD239E39C /* RestoredTransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2592CC95F146846269423D4D064B97C9 /* RestoredTransitionContext.swift */; };
+		F4640C9C369CEBA4524979FFC2876E1F /* PopoverNavigationPresentationAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394684F2D6CF61F5EDBACE4067961356 /* PopoverNavigationPresentationAnimationLaunchingContext.swift */; };
+		F4E4250B5993738D40C78FFD4AC8A9DB /* ModalEndpointNavigationDismissalAnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82F69775C9D183460B7EFDCD385E12 /* ModalEndpointNavigationDismissalAnimationContext.swift */; };
+		F6FA2F2741D0D197FC065173B6153167 /* BaseMasterDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230211FA2197DBAE68EC6B776B9EC731 /* BaseMasterDetailRouter.swift */; };
+		F755D81D7599B860D06F37BE0A9E582E /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0D286CB467ACF6FA8AC6F4640B509 /* BaseRouter.swift */; };
+		F9689BB930DE5BE0598DC0369BBDD9AE /* MarshrouteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A524EBEA9640E70CD56B2E4DAD305476 /* MarshrouteFactory.swift */; };
+		FB67EA5E679ED1CEB279ECC538A9ED73 /* PopoverNavigationTransitionsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB059AC799AB29038EFA2F35BBE49D3 /* PopoverNavigationTransitionsAnimator.swift */; };
+		FBA0FB703C4CD2B6C559136054D4E016 /* PeekAndPopUtilityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DD554FBD9A1171CDF6C736FBBF998 /* PeekAndPopUtilityImpl.swift */; };
+		FC7D787C0AB4AD85232AE312F62CF45E /* PeekAndPopState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D2F5F3609D92415278EEBDF4096C7 /* PeekAndPopState.swift */; };
+		FE5ED6F855814A70A93069FE226F7F7A /* ModalEndpointNavigationDismissalAnimationLaunchingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EE308B4CEA3C239FF8D40634568B03 /* ModalEndpointNavigationDismissalAnimationLaunchingContext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF737587B88CF360B29132D7AC6907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB854FA9F81D151FC150A42B3D3678D6;
+			remoteInfo = Marshroute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0026DBF54EC5553973E70367EA67EEB1 /* ModalNavigationAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalNavigationAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/ModalNavigation/Presentation/ModalNavigationAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		02B5CF9F145810D0A19C654D84EECBDE /* ModalMasterDetailDismissalAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalMasterDetailDismissalAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalMasterDetail/Dismissal/ModalMasterDetailDismissalAnimationContext.swift; sourceTree = "<group>"; };
+		02DAB31BE839CD8E1E895F80A3DF5C2E /* TransitionsHandlersProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsHandlersProvider.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsCoordinator/TransitionsHandlersProvider.swift; sourceTree = "<group>"; };
+		041E5AD8512D512D88589FBD753EC6F9 /* Marshroute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marshroute.debug.xcconfig; sourceTree = "<group>"; };
+		045C4DFF293E9F85826CD79D585E3D99 /* ModalTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalTransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Modal/ModalTransitionsAnimator.swift; sourceTree = "<group>"; };
+		087C8205B0276B9F07D87E825FB554C1 /* Pods-Product Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Product Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		0910BED9C152D45CD3F8EC2DF6AFC6A4 /* TransitionsCoordinatorDelegateHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsCoordinatorDelegateHolder.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsCoordinator/TransitionsCoordinatorDelegateHolder.swift; sourceTree = "<group>"; };
+		09C9F497AC8F8DF90156C624C255C51F /* MarshrouteStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshrouteStack.swift; path = Marshroute/Sources/SettingUpStack/MarshrouteStack.swift; sourceTree = "<group>"; };
+		0A683D2E59D5637B7A5CB3DB22825FE3 /* RouterSeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterSeed.swift; path = Marshroute/Sources/Routers/BaseImpls/BaseRouter/RouterSeed.swift; sourceTree = "<group>"; };
+		0FE6E6147A0F7361106F1BBFF21A3DE6 /* TransitionsHistoryItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsHistoryItem.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsCoordinator/TransitionsHistoryItem.swift; sourceTree = "<group>"; };
+		119B3BE718E28C3E3BA854E0383026B1 /* PresentationTransitionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationTransitionContext.swift; path = Marshroute/Sources/Transitions/TransitionContexts/PresentationTransitionContext.swift; sourceTree = "<group>"; };
+		1395AE63AD95FE142F4A94B334D3D2F6 /* PopoverPresentationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverPresentationRouter.swift; path = Marshroute/Sources/Routers/Routers/PopoverPresentationRouter.swift; sourceTree = "<group>"; };
+		143E62ACA8DE3E4A8FAB02630C9CFD71 /* RouterTransitionsHandlerBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterTransitionsHandlerBox.swift; path = Marshroute/Sources/Routers/Routers/RouterTransitionsHandlerBox.swift; sourceTree = "<group>"; };
+		17636D6E7AF2DE42D732670CDC86B529 /* ViewControllerPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewControllerPosition.swift; path = Marshroute/Sources/ViewControllerAdditions/ViewControllerPosition.swift; sourceTree = "<group>"; };
+		17DA0429BB62EAAF2CB14F0F7BD1D10F /* ModalNavigationDismissalAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalNavigationDismissalAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/ModalNavigation/Dismissal/ModalNavigationDismissalAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		1983F3BE2D58E21E1E388F34C4F21FBB /* SettingNavigationAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingNavigationAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Navigation/Set/SettingNavigationAnimationContext.swift; sourceTree = "<group>"; };
+		1A00F60F4F17C0EA89784D19D5FE232A /* ModalEndpointNavigationTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalEndpointNavigationTransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalEndpointNavigation/ModalEndpointNavigationTransitionsAnimator.swift; sourceTree = "<group>"; };
+		1AFC348D7E9F460582F585F8B48B3496 /* ResettingNavigationAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResettingNavigationAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Navigation/Reset/ResettingNavigationAnimationContext.swift; sourceTree = "<group>"; };
+		1B9708F255E172FCF34063D3C547A790 /* Marshroute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Marshroute-Info.plist"; sourceTree = "<group>"; };
+		1B97A609639C1F62397CF373B4B8FF1B /* ModalPresentationAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalPresentationAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Modal/Presentation/ModalPresentationAnimationContext.swift; sourceTree = "<group>"; };
+		1CB059AC799AB29038EFA2F35BBE49D3 /* PopoverNavigationTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverNavigationTransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/PopoverNavigation/PopoverNavigationTransitionsAnimator.swift; sourceTree = "<group>"; };
+		1E73E3FB709248E9DB83C885500B2E9F /* ModalNavigationPresentationAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalNavigationPresentationAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalNavigation/Presentation/ModalNavigationPresentationAnimationContext.swift; sourceTree = "<group>"; };
+		1F123AD599BA123D557745152DBDA586 /* CompletedTransitionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompletedTransitionContext.swift; path = Marshroute/Sources/Transitions/TransitionContexts/CompletedTransitionContext.swift; sourceTree = "<group>"; };
+		21E2187B69655B4808DA6ACFC5C0DA82 /* DismissalAnimationLaunchingContextBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissalAnimationLaunchingContextBox.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/AnimationsLaunching/AnimationLaunchingContextBoxes/DismissalAnimationLaunchingContextBox.swift; sourceTree = "<group>"; };
+		230211FA2197DBAE68EC6B776B9EC731 /* BaseMasterDetailRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseMasterDetailRouter.swift; path = Marshroute/Sources/Routers/BaseImpls/BaseMasterDetailRouter/BaseMasterDetailRouter.swift; sourceTree = "<group>"; };
+		23245362EB587984886A05CDECFC09AC /* PresentationAnimationLaunchingContextBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationAnimationLaunchingContextBox.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/AnimationsLaunching/AnimationLaunchingContextBoxes/PresentationAnimationLaunchingContextBox.swift; sourceTree = "<group>"; };
+		23F22850A1064663E2A8BC754EB1050C /* Pods_Product_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Product_Test.framework; path = "Pods-Product Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		243D2F5F3609D92415278EEBDF4096C7 /* PeekAndPopState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekAndPopState.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopState/PeekAndPopState.swift; sourceTree = "<group>"; };
+		24B7C11866E5FC033EC924924C2F5D10 /* MarshrouteSetupService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshrouteSetupService.swift; path = Marshroute/Sources/SettingUpStack/MarshrouteSetupService.swift; sourceTree = "<group>"; };
+		2592CC95F146846269423D4D064B97C9 /* RestoredTransitionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestoredTransitionContext.swift; path = Marshroute/Sources/Transitions/TransitionContexts/RestoredTransitionContext.swift; sourceTree = "<group>"; };
+		27F9BE7C31BAA81B20E551AFC97983C1 /* TransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/TransitionsAnimator.swift; sourceTree = "<group>"; };
+		2935D347E635BCCFD26317D6F6DE501F /* ModalMasterDetailDismissalAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalMasterDetailDismissalAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/ModalMasterDetail/Dismissal/ModalMasterDetailDismissalAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		2BA0FCB9179009E78A4FA3DF16A05DD2 /* PeekAndPopStateObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekAndPopStateObservable.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopState/PeekAndPopStateObservable.swift; sourceTree = "<group>"; };
+		2D6A5D771C60ABF4CF6BD9C3BA436E2A /* ModalMasterDetailPresentationAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalMasterDetailPresentationAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalMasterDetail/Presentation/ModalMasterDetailPresentationAnimationContext.swift; sourceTree = "<group>"; };
+		2E5B8960296075755BE00A37EFA8811A /* MarshrouteFactoryImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshrouteFactoryImpl.swift; path = Marshroute/Sources/SettingUpStack/MarshrouteFactoryImpl.swift; sourceTree = "<group>"; };
+		3035DF05FEC6A992780FBFFDFEC00E09 /* RouterFocusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterFocusable.swift; path = Marshroute/Sources/Routers/Routers/RouterFocusable.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33B577BC6C52BFA6F7277A365814C832 /* NavigationTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionsAnimator.swift; path = "Marshroute/Sources/Transitions/TransitionAnimations/Navigation/Push-Pop/NavigationTransitionsAnimator.swift"; sourceTree = "<group>"; };
+		3647A9E150AC11F2C3798356906F5D2E /* Pods-Product Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Product Test-dummy.m"; sourceTree = "<group>"; };
+		394684F2D6CF61F5EDBACE4067961356 /* PopoverNavigationPresentationAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverNavigationPresentationAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/PopoverNavigation/Presentation/PopoverNavigationPresentationAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		3A4731CED1139E9B4964B20D35E5F1EF /* PopoverPresentationAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverPresentationAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Popover/Presentation/PopoverPresentationAnimationContext.swift; sourceTree = "<group>"; };
+		3AF1758E193CF0F7CFAD16AA13340CC0 /* TransitionsHandlerContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsHandlerContainer.swift; path = Marshroute/Sources/Transitions/TransitionsHandler/TransitionsHandlerContainer.swift; sourceTree = "<group>"; };
+		3CDF2D5397D6580C88AAECBE8F69A0BB /* Pods-Product Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Product Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E70C8647EEED0786B60EC33B88E2CAE /* ContainingTransitionsHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainingTransitionsHandler.swift; path = Marshroute/Sources/Transitions/TransitionsHandlerImpls/ContainingTransitionsHandler.swift; sourceTree = "<group>"; };
+		461DCA711DFDA2D68CE9D755370936AC /* Marshroute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marshroute.release.xcconfig; sourceTree = "<group>"; };
+		4901959CCF95C44393A27D7CDDDAFAA7 /* RouterIdentifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterIdentifiable.swift; path = Marshroute/Sources/Routers/Routers/RouterIdentifiable.swift; sourceTree = "<group>"; };
+		4A230264742312F484B270217EA74A6D /* ModalEndpointNavigationAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalEndpointNavigationAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/ModalEndpointNavigation/Presentation/ModalEndpointNavigationAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		4A97AA40F00AACE9EC0981B3C0EB0432 /* Pods-Product Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Product Test-umbrella.h"; sourceTree = "<group>"; };
+		4C67D389751EDB2A5090EA549869F1CD /* Pods-Product Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Product Test-Info.plist"; sourceTree = "<group>"; };
+		4CFD39434ED1F26A07FB9CF4516475E9 /* PeekAndPopTransitionsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekAndPopTransitionsCoordinator.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopTransitionsCoordinator/PeekAndPopTransitionsCoordinator.swift; sourceTree = "<group>"; };
+		4D601677CDD1830E652F99D16C0EFED1 /* TransitionUserId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionUserId.swift; path = Marshroute/Sources/Transitions/TransitionsMarking/TransitionUserId.swift; sourceTree = "<group>"; };
+		4EDF60345521A64042C93B2E6185448E /* PopoverNavigationDismissalAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverNavigationDismissalAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/PopoverNavigation/Dismissal/PopoverNavigationDismissalAnimationContext.swift; sourceTree = "<group>"; };
+		536E360E44666E776C5F1D66412FEB94 /* PeekRequestData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekRequestData.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopUtility/PeekRequestData.swift; sourceTree = "<group>"; };
+		55A0608D3B399C6C51F410BCA7195A90 /* PopoverTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverTransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Popover/PopoverTransitionsAnimator.swift; sourceTree = "<group>"; };
+		5732338960E9EAE80713A864641BACD6 /* ResetNavigationTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResetNavigationTransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Navigation/Reset/ResetNavigationTransitionsAnimator.swift; sourceTree = "<group>"; };
+		594EB41CB5879FFAAE95A7EF04C86A70 /* SetNavigationTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SetNavigationTransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Navigation/Set/SetNavigationTransitionsAnimator.swift; sourceTree = "<group>"; };
+		5A594479DA83108B97A7F72E1EA1B302 /* StrongBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongBox.swift; path = Marshroute/Sources/Boxes/StrongBox.swift; sourceTree = "<group>"; };
+		5A5956653AA17FF4F4B4C49903AF84BD /* TransitionContextsStackClientProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContextsStackClientProvider.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsStack/TransitionContextsStackClientProvider.swift; sourceTree = "<group>"; };
+		5DF5D60B7DF2B9CA5B7FAC76E0D47A98 /* TabBarTransitionsHandlerImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarTransitionsHandlerImpl.swift; path = Marshroute/Sources/Transitions/TransitionsHandlerImpls/TabBarTransitionsHandlerImpl.swift; sourceTree = "<group>"; };
+		5F67CAF77BB62EDCF7834830BA1EC4E0 /* PopoverTransitionStorableParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverTransitionStorableParameters.swift; path = Marshroute/Sources/Transitions/TransitionStorableParameters/PopoverTransitionStorableParameters.swift; sourceTree = "<group>"; };
+		60893616E3F41094421BB35BA45AFB45 /* Marshroute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Marshroute-dummy.m"; sourceTree = "<group>"; };
+		63D829597D251A6EA9222B2BC5E5E415 /* Pods-Product Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Product Test-frameworks.sh"; sourceTree = "<group>"; };
+		657801FD6D48E32D4592B6515856D168 /* ModalNavigationDismissalAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalNavigationDismissalAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalNavigation/Dismissal/ModalNavigationDismissalAnimationContext.swift; sourceTree = "<group>"; };
+		67EE308B4CEA3C239FF8D40634568B03 /* ModalEndpointNavigationDismissalAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalEndpointNavigationDismissalAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/ModalEndpointNavigation/Dismissal/ModalEndpointNavigationDismissalAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		6D0447911159BC425D6D9D5A54EAFEA6 /* SourceAnimationLaunchingContextBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceAnimationLaunchingContextBox.swift; path = Marshroute/Sources/Transitions/TransitionContexts/SourceAnimationLaunchingContextBox.swift; sourceTree = "<group>"; };
+		6F82F69775C9D183460B7EFDCD385E12 /* ModalEndpointNavigationDismissalAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalEndpointNavigationDismissalAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalEndpointNavigation/Dismissal/ModalEndpointNavigationDismissalAnimationContext.swift; sourceTree = "<group>"; };
+		6FE7D04212A7CE856D95F2091F1D7C53 /* WeakBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakBox.swift; path = Marshroute/Sources/Boxes/WeakBox.swift; sourceTree = "<group>"; };
+		70FE5E2E82F15CD220AF8F7709590D5A /* ModalMasterDetailTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalMasterDetailTransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalMasterDetail/ModalMasterDetailTransitionsAnimator.swift; sourceTree = "<group>"; };
+		71C460D3285E286097E56C4ADB759C33 /* ResettingTransitionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResettingTransitionContext.swift; path = Marshroute/Sources/Transitions/TransitionContexts/ResettingTransitionContext.swift; sourceTree = "<group>"; };
+		73072E3F1C2C64080E576A0EC7AB3058 /* ModalPresentationAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalPresentationAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/Modal/Presentation/ModalPresentationAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		74084624428FC44C9C84797E2451C3DA /* PeekAndPopTransitionsCoordinatorHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekAndPopTransitionsCoordinatorHolder.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopTransitionsCoordinator/PeekAndPopTransitionsCoordinatorHolder.swift; sourceTree = "<group>"; };
+		7507A3BDBE2A2DB6A13A69742B63E328 /* TransitionIdGeneratorHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionIdGeneratorHolder.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionId/TransitionIdGeneratorHolder.swift; sourceTree = "<group>"; };
+		75F3260814FF02394A8B3E98C5D3BDBC /* ModalNavigationTransitionsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalNavigationTransitionsAnimator.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalNavigation/ModalNavigationTransitionsAnimator.swift; sourceTree = "<group>"; };
+		7AE621D00BB0F3542C7C9F6E70EB49E8 /* DetailRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailRouter.swift; path = Marshroute/Sources/Routers/Routers/DetailRouter.swift; sourceTree = "<group>"; };
+		7AFE5A9C4969B48886926BC77093D21D /* InternalPeekAndPopState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalPeekAndPopState.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopUtility/InternalPeekAndPopState.swift; sourceTree = "<group>"; };
+		7BB0D286CB467ACF6FA8AC6F4640B509 /* BaseRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRouter.swift; path = Marshroute/Sources/Routers/BaseImpls/BaseRouter/BaseRouter.swift; sourceTree = "<group>"; };
+		7CB92353EFEBDFB185A8A0681BFCC9AD /* AnimatingTransitionsHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatingTransitionsHandler.swift; path = Marshroute/Sources/Transitions/TransitionsHandlerImpls/AnimatingTransitionsHandler.swift; sourceTree = "<group>"; };
+		7F94D7AAB9D1093D0FF623620D8F8EF0 /* TransitionAnimationsLauncher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimationsLauncher.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/AnimationsLaunching/TransitionAnimationsLauncher.swift; sourceTree = "<group>"; };
+		815B4D0A4BB97D05BAD60F1F03BD5B37 /* TransitionsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsCoordinator.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsCoordinator/TransitionsCoordinator.swift; sourceTree = "<group>"; };
+		81635B5931A4DBD61EEDDD59E9D3CA6B /* Marshroute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Marshroute.framework; path = Marshroute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DF111A344B21C7EA0F84CC4136AB80 /* NavigationTransitionStorableParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionStorableParameters.swift; path = Marshroute/Sources/Transitions/TransitionStorableParameters/NavigationTransitionStorableParameters.swift; sourceTree = "<group>"; };
+		830E9F654082AFC79DA3A4DBA4652668 /* RouterDismissable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterDismissable.swift; path = Marshroute/Sources/Routers/Routers/RouterDismissable.swift; sourceTree = "<group>"; };
+		90F43BA87D7D337540B0A23DA1F3D78E /* RouterTransitionable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterTransitionable.swift; path = Marshroute/Sources/Routers/Routers/RouterTransitionable.swift; sourceTree = "<group>"; };
+		9389844811FA7EA38ADB70927343DBF4 /* NavigationTransitionsHandlerImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionsHandlerImpl.swift; path = Marshroute/Sources/Transitions/TransitionsHandlerImpls/NavigationTransitionsHandlerImpl.swift; sourceTree = "<group>"; };
+		944FE87E57738026A5C55F453D3F81E2 /* Marshroute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Marshroute.modulemap; sourceTree = "<group>"; };
+		959E3B7C8369704542A8BDE7DB92B6FD /* ResettingTransitionsAnimatorBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResettingTransitionsAnimatorBox.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ResettingTransitionsAnimatorBox.swift; sourceTree = "<group>"; };
+		9669F9B21F2BD29D65F43039E8CAA225 /* PushAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/Navigation/Push/PushAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		9888145870BBBBF7B9A78A48E2229348 /* TransitionsHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsHandler.swift; path = Marshroute/Sources/Transitions/TransitionsHandler/TransitionsHandler.swift; sourceTree = "<group>"; };
+		98A06676FCEF110F768CE1D1F2D7A2A4 /* RouterPresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterPresentable.swift; path = Marshroute/Sources/Routers/Routers/RouterPresentable.swift; sourceTree = "<group>"; };
+		9A51EBC5A0ECBE2DA7287C059816B7AF /* WeakTransitionsHandlerBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakTransitionsHandlerBox.swift; path = Marshroute/Sources/Transitions/TransitionContexts/WeakTransitionsHandlerBox.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC3F70CBDF1CF83421A84B8A70AB67D /* ResettingAnimationLaunchingContextBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResettingAnimationLaunchingContextBox.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/AnimationsLaunching/AnimationLaunchingContextBoxes/ResettingAnimationLaunchingContextBox.swift; sourceTree = "<group>"; };
+		A244278CF9BB5BA1B700AFCC164CC3D0 /* TransitionIdGeneratorImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionIdGeneratorImpl.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionId/TransitionIdGeneratorImpl.swift; sourceTree = "<group>"; };
+		A2C4397EF70E390C81D32A422624B387 /* Marshroute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshroute-prefix.pch"; sourceTree = "<group>"; };
+		A35E4FF427A9C20478C235D07A525498 /* TransitionContextsStackClientProviderHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContextsStackClientProviderHolder.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsStack/TransitionContextsStackClientProviderHolder.swift; sourceTree = "<group>"; };
+		A524EBEA9640E70CD56B2E4DAD305476 /* MarshrouteFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshrouteFactory.swift; path = Marshroute/Sources/SettingUpStack/MarshrouteFactory.swift; sourceTree = "<group>"; };
+		A594AD69CF2CD8DF052824E2D5A9FFC6 /* PopAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/Navigation/Pop/PopAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		A5B85FB79D27DCB0689B3566A17B4B03 /* TransitionContextsStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContextsStack.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsStack/TransitionContextsStack.swift; sourceTree = "<group>"; };
+		A6910745D6B1B9645B89B3147D8DD4A9 /* TransitionId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionId.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionId/TransitionId.swift; sourceTree = "<group>"; };
+		AA7937E2F8A35287A5A25B3705542221 /* MasterRouterTransitionable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MasterRouterTransitionable.swift; path = Marshroute/Sources/Routers/Routers/MasterRouterTransitionable.swift; sourceTree = "<group>"; };
+		AA8A2438CEEF8B47C4360CA9E5D6AB23 /* ResettingTransitionTargetTransitionsHandlerBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResettingTransitionTargetTransitionsHandlerBox.swift; path = Marshroute/Sources/Transitions/TransitionContexts/ResettingTransitionTargetTransitionsHandlerBox.swift; sourceTree = "<group>"; };
+		AC5A764EDD44A631DA2582CD07141DCB /* TopViewControllerFinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopViewControllerFinder.swift; path = Marshroute/Sources/ViewControllerAdditions/TopViewControllerFinder.swift; sourceTree = "<group>"; };
+		AC7CC799AF9F674A3B634B78AA3DAC85 /* TransitionContextsStackImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContextsStackImpl.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsStack/TransitionContextsStackImpl.swift; sourceTree = "<group>"; };
+		AC86BB59E00328C0287DEFAE9EAA9E8A /* WeakPeekAndPopData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakPeekAndPopData.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopData/WeakPeekAndPopData.swift; sourceTree = "<group>"; };
+		ADA3548F8EF205C34D5C9362101AF1CD /* MasterDetailRouterSeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MasterDetailRouterSeed.swift; path = Marshroute/Sources/Routers/BaseImpls/BaseMasterDetailRouter/MasterDetailRouterSeed.swift; sourceTree = "<group>"; };
+		B21749262073F6F527F0260FBC6DEDCC /* TransitionsCoordinatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsCoordinatorDelegate.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsCoordinator/TransitionsCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		B2A369E1F3FD8E3731A8011A094E3678 /* ModalDismissalAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalDismissalAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/Modal/Dismissal/ModalDismissalAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		B5DB0F4F0787C26D8CF0E56CF0AFF037 /* PeekAndPopDataHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekAndPopDataHolder.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopData/PeekAndPopDataHolder.swift; sourceTree = "<group>"; };
+		B75DBC50C38776127366AA5397B2871F /* ModalPresentationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalPresentationRouter.swift; path = Marshroute/Sources/Routers/Routers/ModalPresentationRouter.swift; sourceTree = "<group>"; };
+		B82370DB651CC7CE6900A147D23E5F3D /* TransitionsMarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsMarker.swift; path = Marshroute/Sources/Transitions/TransitionsMarking/TransitionsMarker.swift; sourceTree = "<group>"; };
+		B845A06EB7E76865ECFBB2FEABD1F1DE /* TransitionStorableParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionStorableParameters.swift; path = Marshroute/Sources/Transitions/TransitionStorableParameters/TransitionStorableParameters.swift; sourceTree = "<group>"; };
+		B92D8188B02EE33639AF48378482AB64 /* PopoverDismissalAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverDismissalAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Popover/Dismissal/PopoverDismissalAnimationContext.swift; sourceTree = "<group>"; };
+		B9A32515D8D9930AA33B01EEF8868445 /* MasterRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MasterRouter.swift; path = Marshroute/Sources/Routers/Routers/MasterRouter.swift; sourceTree = "<group>"; };
+		BA45AED2B5570CCE47179DEF181329CD /* DetailRouterTransitionable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailRouterTransitionable.swift; path = Marshroute/Sources/Routers/Routers/DetailRouterTransitionable.swift; sourceTree = "<group>"; };
+		BB7D3367210A566F5AEE09F84A78D58A /* RouterControllersProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterControllersProvider.swift; path = Marshroute/Sources/Routers/Routers/RouterControllersProvider.swift; sourceTree = "<group>"; };
+		BD928A1847D8D856F9352D3BAB71326B /* EndpointRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndpointRouter.swift; path = Marshroute/Sources/Routers/Routers/EndpointRouter.swift; sourceTree = "<group>"; };
+		BDBDBDE96E298E5E8EA5760F8685E75E /* TransitionsHandlerBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsHandlerBox.swift; path = Marshroute/Sources/Transitions/TransitionContexts/TransitionsHandlerBox.swift; sourceTree = "<group>"; };
+		BF47C5FF20A5D6DD32F0670280A03C99 /* TransitionContextsStackClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContextsStackClient.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsStack/TransitionContextsStackClient.swift; sourceTree = "<group>"; };
+		C0169B368FE3FA69761274A1A42C0E01 /* TransitionsMarkersHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsMarkersHolder.swift; path = Marshroute/Sources/Transitions/TransitionsMarking/TransitionsMarkersHolder.swift; sourceTree = "<group>"; };
+		C1DB1BCC77B8919D89AB762BC3C59D41 /* TransitionsTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsTracker.swift; path = Marshroute/Sources/Transitions/TransitionsTracking/TransitionsTracker.swift; sourceTree = "<group>"; };
+		C253937B5FD48F0E2722E3DA02EBE386 /* PeekAndPopData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekAndPopData.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopData/PeekAndPopData.swift; sourceTree = "<group>"; };
+		C30B93647AAC95882796B871E2DDC6B9 /* CompletedTransitionTargetTransitionsHandlerBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompletedTransitionTargetTransitionsHandlerBox.swift; path = Marshroute/Sources/Transitions/TransitionContexts/CompletedTransitionTargetTransitionsHandlerBox.swift; sourceTree = "<group>"; };
+		C55C0AF5E4CCCB4DAB6F456A48E5BDBC /* ModalEndpointNavigationPresentationAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalEndpointNavigationPresentationAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/ModalEndpointNavigation/Presentation/ModalEndpointNavigationPresentationAnimationContext.swift; sourceTree = "<group>"; };
+		C5B79221237BBA78F99BB14DE1B69C72 /* PushAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushAnimationContext.swift; path = "Marshroute/Sources/Transitions/TransitionAnimations/Navigation/Push-Pop/PushAnimationContext.swift"; sourceTree = "<group>"; };
+		C80DF0D31D9237C36F4295B176C806F3 /* TransitionContextsStackClientProviderImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContextsStackClientProviderImpl.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsStack/TransitionContextsStackClientProviderImpl.swift; sourceTree = "<group>"; };
+		CACC0BB57F2289E261CEC4383A9404FC /* PresentationTransitionTargetTransitionsHandlerBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationTransitionTargetTransitionsHandlerBox.swift; path = Marshroute/Sources/Transitions/TransitionContexts/PresentationTransitionTargetTransitionsHandlerBox.swift; sourceTree = "<group>"; };
+		D5F82579EAD40B53997DC13EACB58AB2 /* PopoverTransitionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverTransitionStyle.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/PopoverTransitionStyle.swift; sourceTree = "<group>"; };
+		D61421F51C75DBC06B39BE608ECFEFCF /* PopoverPresentationAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverPresentationAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/Popover/Presentation/PopoverPresentationAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		D725B56A014A96C87181196CA9214BE6 /* SplitViewTransitionsHandlerImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplitViewTransitionsHandlerImpl.swift; path = Marshroute/Sources/Transitions/TransitionsHandlerImpls/SplitViewTransitionsHandlerImpl.swift; sourceTree = "<group>"; };
+		D7696E0EDA12050B01CBE9EC9D212326 /* PopoverDismissalAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverDismissalAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/Popover/Dismissal/PopoverDismissalAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		D9E8EF1D9407ED4D2C7F6F7CC22E0D14 /* ModalMasterDetailPresentationAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalMasterDetailPresentationAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/ModalMasterDetail/Presentation/ModalMasterDetailPresentationAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		DBC64DEE3C8AF4C9DB9AB5F8EEFBD815 /* RouterControllersProviderHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterControllersProviderHolder.swift; path = Marshroute/Sources/Routers/Routers/RouterControllersProviderHolder.swift; sourceTree = "<group>"; };
+		DE1D88FA23CB8EED75CA2DCD3CAB3BD8 /* PresentationTransitionsAnimatorBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationTransitionsAnimatorBox.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/PresentationTransitionsAnimatorBox.swift; sourceTree = "<group>"; };
+		DE7DD554FBD9A1171CDF6C736FBBF998 /* PeekAndPopUtilityImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekAndPopUtilityImpl.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopUtility/PeekAndPopUtilityImpl.swift; sourceTree = "<group>"; };
+		DE8CF316FFDB76566768459C577D9F1B /* StrongPeekAndPopData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongPeekAndPopData.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopData/StrongPeekAndPopData.swift; sourceTree = "<group>"; };
+		DEAD0B6690F5E6852DC7DB08B0DBC858 /* ModalDismissalAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalDismissalAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/Modal/Dismissal/ModalDismissalAnimationContext.swift; sourceTree = "<group>"; };
+		E10908DD81823C9620A74089E70A112D /* PeekAndPopUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekAndPopUtility.swift; path = Marshroute/Sources/Transitions/PeekAndPopSupport/PeekAndPopUtility/PeekAndPopUtility.swift; sourceTree = "<group>"; };
+		E211E9F9BF168D0FD41AF4EA5224C478 /* Pods-Product Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Product Test.release.xcconfig"; sourceTree = "<group>"; };
+		E3A097A9DAD9B82C1F92AEE49B9BE93F /* Pods-Product Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Product Test.debug.xcconfig"; sourceTree = "<group>"; };
+		E477C54015F4FC57593C219906B878BA /* RestoredTransitionTargetTransitionsHandlerBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestoredTransitionTargetTransitionsHandlerBox.swift; path = Marshroute/Sources/Transitions/TransitionContexts/RestoredTransitionTargetTransitionsHandlerBox.swift; sourceTree = "<group>"; };
+		E730A9FA1CB5C67D035E369EE13C4EC3 /* RouterControllersProviderImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterControllersProviderImpl.swift; path = Marshroute/Sources/Routers/Routers/RouterControllersProviderImpl.swift; sourceTree = "<group>"; };
+		EA5F5BAEA04A5CB9CF9B80017129665F /* TransitionIdGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionIdGenerator.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionId/TransitionIdGenerator.swift; sourceTree = "<group>"; };
+		EC429EAE1CCE286A7BB6FEA864B7785F /* PopAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopAnimationContext.swift; path = "Marshroute/Sources/Transitions/TransitionAnimations/Navigation/Push-Pop/PopAnimationContext.swift"; sourceTree = "<group>"; };
+		EC583EEC37401CFBD12EC527BF6299BE /* TransitionsCoordinatorHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsCoordinatorHolder.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsCoordinator/TransitionsCoordinatorHolder.swift; sourceTree = "<group>"; };
+		EDB88FD44E865455B018F80BACBF2DF6 /* TransitionsHandlersProviderHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsHandlersProviderHolder.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsCoordinator/TransitionsHandlersProviderHolder.swift; sourceTree = "<group>"; };
+		EF1C1761574BD5E61656CB51C7ED6817 /* Marshroute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshroute-umbrella.h"; sourceTree = "<group>"; };
+		F25E96CF574903D8B3A55F534D5072DE /* MarshrouteSetupServiceImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshrouteSetupServiceImpl.swift; path = Marshroute/Sources/SettingUpStack/MarshrouteSetupServiceImpl.swift; sourceTree = "<group>"; };
+		F2BD0552706D00B572983403C27018FB /* SettingAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/Navigation/Set/SettingAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		F3D0A57A164659CFF874B0365CC866F6 /* PopoverNavigationPresentationAnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverNavigationPresentationAnimationContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimations/PopoverNavigation/Presentation/PopoverNavigationPresentationAnimationContext.swift; sourceTree = "<group>"; };
+		F40994BEE0721FF33CCF05D8D15B1158 /* PopoverNavigationDismissalAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverNavigationDismissalAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/PopoverNavigation/Dismissal/PopoverNavigationDismissalAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+		F462A1541FDC96D600745BC624474FEB /* TransitionsCoordinatorImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionsCoordinatorImpl.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsCoordinator/TransitionsCoordinatorImpl.swift; sourceTree = "<group>"; };
+		F4972375D8130C3F6C3EBE82D91BA511 /* TransitionContextsStackClientImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContextsStackClientImpl.swift; path = Marshroute/Sources/Transitions/TransitionsHandling/TransitionsStack/TransitionContextsStackClientImpl.swift; sourceTree = "<group>"; };
+		FC8F684C2E9B3C701FFBC281854E4778 /* Pods-Product Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Product Test.modulemap"; sourceTree = "<group>"; };
+		FEAD86C96972ED4D2983B698C0E5B235 /* ResettingAnimationLaunchingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResettingAnimationLaunchingContext.swift; path = Marshroute/Sources/Transitions/TransitionAnimationsLaunching/Navigation/Reset/ResettingAnimationLaunchingContext.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8007AB0207EB7AB25007CFA3D376D007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DE4D7A096738B60CBF8B0E5C74D184 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DA3B866C3D996341DB19D2B7482923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCF6CF9B0CCAD24E1463E6F47541003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013AE0E4BFFB190AF1D5D90384C02F7B /* Marshroute */ = {
+			isa = PBXGroup;
+			children = (
+				7CB92353EFEBDFB185A8A0681BFCC9AD /* AnimatingTransitionsHandler.swift */,
+				230211FA2197DBAE68EC6B776B9EC731 /* BaseMasterDetailRouter.swift */,
+				7BB0D286CB467ACF6FA8AC6F4640B509 /* BaseRouter.swift */,
+				1F123AD599BA123D557745152DBDA586 /* CompletedTransitionContext.swift */,
+				C30B93647AAC95882796B871E2DDC6B9 /* CompletedTransitionTargetTransitionsHandlerBox.swift */,
+				3E70C8647EEED0786B60EC33B88E2CAE /* ContainingTransitionsHandler.swift */,
+				7AE621D00BB0F3542C7C9F6E70EB49E8 /* DetailRouter.swift */,
+				BA45AED2B5570CCE47179DEF181329CD /* DetailRouterTransitionable.swift */,
+				21E2187B69655B4808DA6ACFC5C0DA82 /* DismissalAnimationLaunchingContextBox.swift */,
+				BD928A1847D8D856F9352D3BAB71326B /* EndpointRouter.swift */,
+				7AFE5A9C4969B48886926BC77093D21D /* InternalPeekAndPopState.swift */,
+				A524EBEA9640E70CD56B2E4DAD305476 /* MarshrouteFactory.swift */,
+				2E5B8960296075755BE00A37EFA8811A /* MarshrouteFactoryImpl.swift */,
+				24B7C11866E5FC033EC924924C2F5D10 /* MarshrouteSetupService.swift */,
+				F25E96CF574903D8B3A55F534D5072DE /* MarshrouteSetupServiceImpl.swift */,
+				09C9F497AC8F8DF90156C624C255C51F /* MarshrouteStack.swift */,
+				ADA3548F8EF205C34D5C9362101AF1CD /* MasterDetailRouterSeed.swift */,
+				B9A32515D8D9930AA33B01EEF8868445 /* MasterRouter.swift */,
+				AA7937E2F8A35287A5A25B3705542221 /* MasterRouterTransitionable.swift */,
+				DEAD0B6690F5E6852DC7DB08B0DBC858 /* ModalDismissalAnimationContext.swift */,
+				B2A369E1F3FD8E3731A8011A094E3678 /* ModalDismissalAnimationLaunchingContext.swift */,
+				4A230264742312F484B270217EA74A6D /* ModalEndpointNavigationAnimationLaunchingContext.swift */,
+				6F82F69775C9D183460B7EFDCD385E12 /* ModalEndpointNavigationDismissalAnimationContext.swift */,
+				67EE308B4CEA3C239FF8D40634568B03 /* ModalEndpointNavigationDismissalAnimationLaunchingContext.swift */,
+				C55C0AF5E4CCCB4DAB6F456A48E5BDBC /* ModalEndpointNavigationPresentationAnimationContext.swift */,
+				1A00F60F4F17C0EA89784D19D5FE232A /* ModalEndpointNavigationTransitionsAnimator.swift */,
+				02B5CF9F145810D0A19C654D84EECBDE /* ModalMasterDetailDismissalAnimationContext.swift */,
+				2935D347E635BCCFD26317D6F6DE501F /* ModalMasterDetailDismissalAnimationLaunchingContext.swift */,
+				2D6A5D771C60ABF4CF6BD9C3BA436E2A /* ModalMasterDetailPresentationAnimationContext.swift */,
+				D9E8EF1D9407ED4D2C7F6F7CC22E0D14 /* ModalMasterDetailPresentationAnimationLaunchingContext.swift */,
+				70FE5E2E82F15CD220AF8F7709590D5A /* ModalMasterDetailTransitionsAnimator.swift */,
+				0026DBF54EC5553973E70367EA67EEB1 /* ModalNavigationAnimationLaunchingContext.swift */,
+				657801FD6D48E32D4592B6515856D168 /* ModalNavigationDismissalAnimationContext.swift */,
+				17DA0429BB62EAAF2CB14F0F7BD1D10F /* ModalNavigationDismissalAnimationLaunchingContext.swift */,
+				1E73E3FB709248E9DB83C885500B2E9F /* ModalNavigationPresentationAnimationContext.swift */,
+				75F3260814FF02394A8B3E98C5D3BDBC /* ModalNavigationTransitionsAnimator.swift */,
+				1B97A609639C1F62397CF373B4B8FF1B /* ModalPresentationAnimationContext.swift */,
+				73072E3F1C2C64080E576A0EC7AB3058 /* ModalPresentationAnimationLaunchingContext.swift */,
+				B75DBC50C38776127366AA5397B2871F /* ModalPresentationRouter.swift */,
+				045C4DFF293E9F85826CD79D585E3D99 /* ModalTransitionsAnimator.swift */,
+				33B577BC6C52BFA6F7277A365814C832 /* NavigationTransitionsAnimator.swift */,
+				9389844811FA7EA38ADB70927343DBF4 /* NavigationTransitionsHandlerImpl.swift */,
+				82DF111A344B21C7EA0F84CC4136AB80 /* NavigationTransitionStorableParameters.swift */,
+				C253937B5FD48F0E2722E3DA02EBE386 /* PeekAndPopData.swift */,
+				B5DB0F4F0787C26D8CF0E56CF0AFF037 /* PeekAndPopDataHolder.swift */,
+				243D2F5F3609D92415278EEBDF4096C7 /* PeekAndPopState.swift */,
+				2BA0FCB9179009E78A4FA3DF16A05DD2 /* PeekAndPopStateObservable.swift */,
+				4CFD39434ED1F26A07FB9CF4516475E9 /* PeekAndPopTransitionsCoordinator.swift */,
+				74084624428FC44C9C84797E2451C3DA /* PeekAndPopTransitionsCoordinatorHolder.swift */,
+				E10908DD81823C9620A74089E70A112D /* PeekAndPopUtility.swift */,
+				DE7DD554FBD9A1171CDF6C736FBBF998 /* PeekAndPopUtilityImpl.swift */,
+				536E360E44666E776C5F1D66412FEB94 /* PeekRequestData.swift */,
+				EC429EAE1CCE286A7BB6FEA864B7785F /* PopAnimationContext.swift */,
+				A594AD69CF2CD8DF052824E2D5A9FFC6 /* PopAnimationLaunchingContext.swift */,
+				B92D8188B02EE33639AF48378482AB64 /* PopoverDismissalAnimationContext.swift */,
+				D7696E0EDA12050B01CBE9EC9D212326 /* PopoverDismissalAnimationLaunchingContext.swift */,
+				4EDF60345521A64042C93B2E6185448E /* PopoverNavigationDismissalAnimationContext.swift */,
+				F40994BEE0721FF33CCF05D8D15B1158 /* PopoverNavigationDismissalAnimationLaunchingContext.swift */,
+				F3D0A57A164659CFF874B0365CC866F6 /* PopoverNavigationPresentationAnimationContext.swift */,
+				394684F2D6CF61F5EDBACE4067961356 /* PopoverNavigationPresentationAnimationLaunchingContext.swift */,
+				1CB059AC799AB29038EFA2F35BBE49D3 /* PopoverNavigationTransitionsAnimator.swift */,
+				3A4731CED1139E9B4964B20D35E5F1EF /* PopoverPresentationAnimationContext.swift */,
+				D61421F51C75DBC06B39BE608ECFEFCF /* PopoverPresentationAnimationLaunchingContext.swift */,
+				1395AE63AD95FE142F4A94B334D3D2F6 /* PopoverPresentationRouter.swift */,
+				55A0608D3B399C6C51F410BCA7195A90 /* PopoverTransitionsAnimator.swift */,
+				5F67CAF77BB62EDCF7834830BA1EC4E0 /* PopoverTransitionStorableParameters.swift */,
+				D5F82579EAD40B53997DC13EACB58AB2 /* PopoverTransitionStyle.swift */,
+				23245362EB587984886A05CDECFC09AC /* PresentationAnimationLaunchingContextBox.swift */,
+				119B3BE718E28C3E3BA854E0383026B1 /* PresentationTransitionContext.swift */,
+				DE1D88FA23CB8EED75CA2DCD3CAB3BD8 /* PresentationTransitionsAnimatorBox.swift */,
+				CACC0BB57F2289E261CEC4383A9404FC /* PresentationTransitionTargetTransitionsHandlerBox.swift */,
+				C5B79221237BBA78F99BB14DE1B69C72 /* PushAnimationContext.swift */,
+				9669F9B21F2BD29D65F43039E8CAA225 /* PushAnimationLaunchingContext.swift */,
+				5732338960E9EAE80713A864641BACD6 /* ResetNavigationTransitionsAnimator.swift */,
+				FEAD86C96972ED4D2983B698C0E5B235 /* ResettingAnimationLaunchingContext.swift */,
+				9FC3F70CBDF1CF83421A84B8A70AB67D /* ResettingAnimationLaunchingContextBox.swift */,
+				1AFC348D7E9F460582F585F8B48B3496 /* ResettingNavigationAnimationContext.swift */,
+				71C460D3285E286097E56C4ADB759C33 /* ResettingTransitionContext.swift */,
+				959E3B7C8369704542A8BDE7DB92B6FD /* ResettingTransitionsAnimatorBox.swift */,
+				AA8A2438CEEF8B47C4360CA9E5D6AB23 /* ResettingTransitionTargetTransitionsHandlerBox.swift */,
+				2592CC95F146846269423D4D064B97C9 /* RestoredTransitionContext.swift */,
+				E477C54015F4FC57593C219906B878BA /* RestoredTransitionTargetTransitionsHandlerBox.swift */,
+				BB7D3367210A566F5AEE09F84A78D58A /* RouterControllersProvider.swift */,
+				DBC64DEE3C8AF4C9DB9AB5F8EEFBD815 /* RouterControllersProviderHolder.swift */,
+				E730A9FA1CB5C67D035E369EE13C4EC3 /* RouterControllersProviderImpl.swift */,
+				830E9F654082AFC79DA3A4DBA4652668 /* RouterDismissable.swift */,
+				3035DF05FEC6A992780FBFFDFEC00E09 /* RouterFocusable.swift */,
+				4901959CCF95C44393A27D7CDDDAFAA7 /* RouterIdentifiable.swift */,
+				98A06676FCEF110F768CE1D1F2D7A2A4 /* RouterPresentable.swift */,
+				0A683D2E59D5637B7A5CB3DB22825FE3 /* RouterSeed.swift */,
+				90F43BA87D7D337540B0A23DA1F3D78E /* RouterTransitionable.swift */,
+				143E62ACA8DE3E4A8FAB02630C9CFD71 /* RouterTransitionsHandlerBox.swift */,
+				594EB41CB5879FFAAE95A7EF04C86A70 /* SetNavigationTransitionsAnimator.swift */,
+				F2BD0552706D00B572983403C27018FB /* SettingAnimationLaunchingContext.swift */,
+				1983F3BE2D58E21E1E388F34C4F21FBB /* SettingNavigationAnimationContext.swift */,
+				6D0447911159BC425D6D9D5A54EAFEA6 /* SourceAnimationLaunchingContextBox.swift */,
+				D725B56A014A96C87181196CA9214BE6 /* SplitViewTransitionsHandlerImpl.swift */,
+				5A594479DA83108B97A7F72E1EA1B302 /* StrongBox.swift */,
+				DE8CF316FFDB76566768459C577D9F1B /* StrongPeekAndPopData.swift */,
+				5DF5D60B7DF2B9CA5B7FAC76E0D47A98 /* TabBarTransitionsHandlerImpl.swift */,
+				AC5A764EDD44A631DA2582CD07141DCB /* TopViewControllerFinder.swift */,
+				7F94D7AAB9D1093D0FF623620D8F8EF0 /* TransitionAnimationsLauncher.swift */,
+				A5B85FB79D27DCB0689B3566A17B4B03 /* TransitionContextsStack.swift */,
+				BF47C5FF20A5D6DD32F0670280A03C99 /* TransitionContextsStackClient.swift */,
+				F4972375D8130C3F6C3EBE82D91BA511 /* TransitionContextsStackClientImpl.swift */,
+				5A5956653AA17FF4F4B4C49903AF84BD /* TransitionContextsStackClientProvider.swift */,
+				A35E4FF427A9C20478C235D07A525498 /* TransitionContextsStackClientProviderHolder.swift */,
+				C80DF0D31D9237C36F4295B176C806F3 /* TransitionContextsStackClientProviderImpl.swift */,
+				AC7CC799AF9F674A3B634B78AA3DAC85 /* TransitionContextsStackImpl.swift */,
+				A6910745D6B1B9645B89B3147D8DD4A9 /* TransitionId.swift */,
+				EA5F5BAEA04A5CB9CF9B80017129665F /* TransitionIdGenerator.swift */,
+				7507A3BDBE2A2DB6A13A69742B63E328 /* TransitionIdGeneratorHolder.swift */,
+				A244278CF9BB5BA1B700AFCC164CC3D0 /* TransitionIdGeneratorImpl.swift */,
+				27F9BE7C31BAA81B20E551AFC97983C1 /* TransitionsAnimator.swift */,
+				815B4D0A4BB97D05BAD60F1F03BD5B37 /* TransitionsCoordinator.swift */,
+				B21749262073F6F527F0260FBC6DEDCC /* TransitionsCoordinatorDelegate.swift */,
+				0910BED9C152D45CD3F8EC2DF6AFC6A4 /* TransitionsCoordinatorDelegateHolder.swift */,
+				EC583EEC37401CFBD12EC527BF6299BE /* TransitionsCoordinatorHolder.swift */,
+				F462A1541FDC96D600745BC624474FEB /* TransitionsCoordinatorImpl.swift */,
+				9888145870BBBBF7B9A78A48E2229348 /* TransitionsHandler.swift */,
+				BDBDBDE96E298E5E8EA5760F8685E75E /* TransitionsHandlerBox.swift */,
+				3AF1758E193CF0F7CFAD16AA13340CC0 /* TransitionsHandlerContainer.swift */,
+				02DAB31BE839CD8E1E895F80A3DF5C2E /* TransitionsHandlersProvider.swift */,
+				EDB88FD44E865455B018F80BACBF2DF6 /* TransitionsHandlersProviderHolder.swift */,
+				0FE6E6147A0F7361106F1BBFF21A3DE6 /* TransitionsHistoryItem.swift */,
+				B82370DB651CC7CE6900A147D23E5F3D /* TransitionsMarker.swift */,
+				C0169B368FE3FA69761274A1A42C0E01 /* TransitionsMarkersHolder.swift */,
+				B845A06EB7E76865ECFBB2FEABD1F1DE /* TransitionStorableParameters.swift */,
+				C1DB1BCC77B8919D89AB762BC3C59D41 /* TransitionsTracker.swift */,
+				4D601677CDD1830E652F99D16C0EFED1 /* TransitionUserId.swift */,
+				17636D6E7AF2DE42D732670CDC86B529 /* ViewControllerPosition.swift */,
+				6FE7D04212A7CE856D95F2091F1D7C53 /* WeakBox.swift */,
+				AC86BB59E00328C0287DEFAE9EAA9E8A /* WeakPeekAndPopData.swift */,
+				9A51EBC5A0ECBE2DA7287C059816B7AF /* WeakTransitionsHandlerBox.swift */,
+				2499BAF6117536AB2442D76E8E043438 /* Support Files */,
+			);
+			name = Marshroute;
+			path = Marshroute;
+			sourceTree = "<group>";
+		};
+		2499BAF6117536AB2442D76E8E043438 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				944FE87E57738026A5C55F453D3F81E2 /* Marshroute.modulemap */,
+				60893616E3F41094421BB35BA45AFB45 /* Marshroute-dummy.m */,
+				1B9708F255E172FCF34063D3C547A790 /* Marshroute-Info.plist */,
+				A2C4397EF70E390C81D32A422624B387 /* Marshroute-prefix.pch */,
+				EF1C1761574BD5E61656CB51C7ED6817 /* Marshroute-umbrella.h */,
+				041E5AD8512D512D88589FBD753EC6F9 /* Marshroute.debug.xcconfig */,
+				461DCA711DFDA2D68CE9D755370936AC /* Marshroute.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Marshroute";
+			sourceTree = "<group>";
+		};
+		5C74675AAF548A5EF8CE991D407A42EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81635B5931A4DBD61EEDDD59E9D3CA6B /* Marshroute.framework */,
+				23F22850A1064663E2A8BC754EB1050C /* Pods_Product_Test.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BF184FE3ED0949950EE5D4DE8BB093 /* Pods-Product Test */ = {
+			isa = PBXGroup;
+			children = (
+				FC8F684C2E9B3C701FFBC281854E4778 /* Pods-Product Test.modulemap */,
+				3CDF2D5397D6580C88AAECBE8F69A0BB /* Pods-Product Test-acknowledgements.markdown */,
+				087C8205B0276B9F07D87E825FB554C1 /* Pods-Product Test-acknowledgements.plist */,
+				3647A9E150AC11F2C3798356906F5D2E /* Pods-Product Test-dummy.m */,
+				63D829597D251A6EA9222B2BC5E5E415 /* Pods-Product Test-frameworks.sh */,
+				4C67D389751EDB2A5090EA549869F1CD /* Pods-Product Test-Info.plist */,
+				4A97AA40F00AACE9EC0981B3C0EB0432 /* Pods-Product Test-umbrella.h */,
+				E3A097A9DAD9B82C1F92AEE49B9BE93F /* Pods-Product Test.debug.xcconfig */,
+				E211E9F9BF168D0FD41AF4EA5224C478 /* Pods-Product Test.release.xcconfig */,
+			);
+			name = "Pods-Product Test";
+			path = "Target Support Files/Pods-Product Test";
+			sourceTree = "<group>";
+		};
+		BA1786A5A60CEFC56AFBDA7FE921067D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF184FE3ED0949950EE5D4DE8BB093 /* Pods-Product Test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D660ED13DBDD84E4014DAF25D5DC8156 /* Pods */,
+				5C74675AAF548A5EF8CE991D407A42EA /* Products */,
+				BA1786A5A60CEFC56AFBDA7FE921067D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D660ED13DBDD84E4014DAF25D5DC8156 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				013AE0E4BFFB190AF1D5D90384C02F7B /* Marshroute */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A740362CCACE4D998B086BACCE86802 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D23B4577EB4850DD08B1831E97B37 /* Marshroute-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7165A952F90D45C986012B4D69B7E76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292D2DDCEE7A8BA777000F379CCC6D26 /* Pods-Product Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41B6893F0FA96EB06F084843A27D15CC /* Pods-Product Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C09CD55C454A96685E6E3DE6F725DF /* Build configuration list for PBXNativeTarget "Pods-Product Test" */;
+			buildPhases = (
+				C7165A952F90D45C986012B4D69B7E76 /* Headers */,
+				1DE76C772996F493935B14C58B8D5659 /* Sources */,
+				8007AB0207EB7AB25007CFA3D376D007 /* Frameworks */,
+				AEA82592178A0D9A2FD291D59752E769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B6F0B7421EC62606F0D28B01F2F6796 /* PBXTargetDependency */,
+			);
+			name = "Pods-Product Test";
+			productName = "Pods-Product Test";
+			productReference = 23F22850A1064663E2A8BC754EB1050C /* Pods_Product_Test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB854FA9F81D151FC150A42B3D3678D6 /* Marshroute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34AD40C005ADF339942C5B4577708CF /* Build configuration list for PBXNativeTarget "Marshroute" */;
+			buildPhases = (
+				4A740362CCACE4D998B086BACCE86802 /* Headers */,
+				19FCCEE5707DB977994803B06B5E94B5 /* Sources */,
+				88DA3B866C3D996341DB19D2B7482923 /* Frameworks */,
+				3240C1F58A3EEDE5FFA3488A40D4968C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marshroute;
+			productName = Marshroute;
+			productReference = 81635B5931A4DBD61EEDDD59E9D3CA6B /* Marshroute.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5C74675AAF548A5EF8CE991D407A42EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB854FA9F81D151FC150A42B3D3678D6 /* Marshroute */,
+				41B6893F0FA96EB06F084843A27D15CC /* Pods-Product Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3240C1F58A3EEDE5FFA3488A40D4968C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA82592178A0D9A2FD291D59752E769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19FCCEE5707DB977994803B06B5E94B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD18CB96A616D4A472FE8DCA858A88DC /* AnimatingTransitionsHandler.swift in Sources */,
+				F6FA2F2741D0D197FC065173B6153167 /* BaseMasterDetailRouter.swift in Sources */,
+				F755D81D7599B860D06F37BE0A9E582E /* BaseRouter.swift in Sources */,
+				8FA6C16ACDDD1324730BE4F571EA8C87 /* CompletedTransitionContext.swift in Sources */,
+				801BB90F6ABF0378185223D30A001F4C /* CompletedTransitionTargetTransitionsHandlerBox.swift in Sources */,
+				D4977CCCF4281BAAFA635F846CA1AC52 /* ContainingTransitionsHandler.swift in Sources */,
+				09268135C3093367EA4BC6AA1BA8F32D /* DetailRouter.swift in Sources */,
+				4D9D3EEC50F27FB097BA1C7175E19B17 /* DetailRouterTransitionable.swift in Sources */,
+				CDD6B949B04DF21C2D6499B1E24F8B15 /* DismissalAnimationLaunchingContextBox.swift in Sources */,
+				E436428A1C1A6914C4F0EE0B1AC5D07F /* EndpointRouter.swift in Sources */,
+				1EEAACAFA32ECF915202D2D475CBD55D /* InternalPeekAndPopState.swift in Sources */,
+				700D01031EC76BE9BD71F242CCB5446B /* Marshroute-dummy.m in Sources */,
+				F9689BB930DE5BE0598DC0369BBDD9AE /* MarshrouteFactory.swift in Sources */,
+				00886DBED13660BB36966B0D64733629 /* MarshrouteFactoryImpl.swift in Sources */,
+				5D3FA09438F66AB47F5F975830FC38B6 /* MarshrouteSetupService.swift in Sources */,
+				5E3AB2016B53172948E73340F3BB69D8 /* MarshrouteSetupServiceImpl.swift in Sources */,
+				39FC7FF610DC7C250320CD655E276824 /* MarshrouteStack.swift in Sources */,
+				7549CF1E579007EE60FD1F4C72151801 /* MasterDetailRouterSeed.swift in Sources */,
+				CB4562D2808BC4F23237B4219A22A2BB /* MasterRouter.swift in Sources */,
+				67A9FC4F8C6A50AC617F271863AF3D7E /* MasterRouterTransitionable.swift in Sources */,
+				A6B548DFE5CA602F5BFE88DB98B73C7B /* ModalDismissalAnimationContext.swift in Sources */,
+				B4B5B925E41BC4456AABD98838747820 /* ModalDismissalAnimationLaunchingContext.swift in Sources */,
+				6E5FAC5386937EC2BF64D92E58EC17EF /* ModalEndpointNavigationAnimationLaunchingContext.swift in Sources */,
+				F4E4250B5993738D40C78FFD4AC8A9DB /* ModalEndpointNavigationDismissalAnimationContext.swift in Sources */,
+				FE5ED6F855814A70A93069FE226F7F7A /* ModalEndpointNavigationDismissalAnimationLaunchingContext.swift in Sources */,
+				B8EE52CA57D9D672BCB909ABED49B665 /* ModalEndpointNavigationPresentationAnimationContext.swift in Sources */,
+				EFE5051A004ECC713046E9D98CC05D9F /* ModalEndpointNavigationTransitionsAnimator.swift in Sources */,
+				4B46C50624259D7F5244ED99BCEC3A61 /* ModalMasterDetailDismissalAnimationContext.swift in Sources */,
+				8BD2A01AE09FB38B62C5D13E28164600 /* ModalMasterDetailDismissalAnimationLaunchingContext.swift in Sources */,
+				82B5D82BB658C8462CA5BE9027D8FC09 /* ModalMasterDetailPresentationAnimationContext.swift in Sources */,
+				810CCB3A83B9B4E2506B8839A6E0F52C /* ModalMasterDetailPresentationAnimationLaunchingContext.swift in Sources */,
+				AC9DF4B0B655DC74A7E7DF3DA830679A /* ModalMasterDetailTransitionsAnimator.swift in Sources */,
+				4BD40FC810D104DF793503DA9A11173D /* ModalNavigationAnimationLaunchingContext.swift in Sources */,
+				2F85D4B5526A84310EAB2196B8E7BA2E /* ModalNavigationDismissalAnimationContext.swift in Sources */,
+				17FFBD594E3CF4FA6C2901239642EFF1 /* ModalNavigationDismissalAnimationLaunchingContext.swift in Sources */,
+				90A1E405BF88FB267BC870497E419B9C /* ModalNavigationPresentationAnimationContext.swift in Sources */,
+				D211EBE660BB00A1D107301F18B1FDCA /* ModalNavigationTransitionsAnimator.swift in Sources */,
+				88A540735A15BA0A833C34779EEF0E25 /* ModalPresentationAnimationContext.swift in Sources */,
+				BE0404CD7CD70EA11E1162C9C3085211 /* ModalPresentationAnimationLaunchingContext.swift in Sources */,
+				97A04A64E675A1D743127B8F175AC886 /* ModalPresentationRouter.swift in Sources */,
+				DE7A7F1F935C720B556F83333748A1B2 /* ModalTransitionsAnimator.swift in Sources */,
+				7281AA9F97862B34C6E5ED57A9D1A72E /* NavigationTransitionsAnimator.swift in Sources */,
+				D8CAECDC567A9720CD4A5BAC2DC20F07 /* NavigationTransitionsHandlerImpl.swift in Sources */,
+				02AD0D20A09EF62D3465E0F6D5939A37 /* NavigationTransitionStorableParameters.swift in Sources */,
+				0A95CEB8928D65E17C226A465874A044 /* PeekAndPopData.swift in Sources */,
+				163CD9B250F9031E3F4B5B4B2EE1BC34 /* PeekAndPopDataHolder.swift in Sources */,
+				FC7D787C0AB4AD85232AE312F62CF45E /* PeekAndPopState.swift in Sources */,
+				DE63AEF8213ECF08AF62A37D31085CF6 /* PeekAndPopStateObservable.swift in Sources */,
+				DE9C0A71A162B692CDCF021EFC7A8810 /* PeekAndPopTransitionsCoordinator.swift in Sources */,
+				E13A0BE306E866050084FA611986175F /* PeekAndPopTransitionsCoordinatorHolder.swift in Sources */,
+				9D144CB5E379F1DAC33957DFB6999755 /* PeekAndPopUtility.swift in Sources */,
+				FBA0FB703C4CD2B6C559136054D4E016 /* PeekAndPopUtilityImpl.swift in Sources */,
+				241DFF8DEDB2E5C2C2B23E5EB469CDD3 /* PeekRequestData.swift in Sources */,
+				58E91ADF3D6784A96F1216D1D4FE32FE /* PopAnimationContext.swift in Sources */,
+				96DC1B6E08EF95F43F57E430FB06E265 /* PopAnimationLaunchingContext.swift in Sources */,
+				45265FAB2CFA2F59274FAA84F6FC84BF /* PopoverDismissalAnimationContext.swift in Sources */,
+				ABBCEB2A75C8A8F07165201EC6E02CCD /* PopoverDismissalAnimationLaunchingContext.swift in Sources */,
+				0427447CD1C44D86717E9E1EB440BDAA /* PopoverNavigationDismissalAnimationContext.swift in Sources */,
+				24291EA2E1A923F70DEF8D88180D9A05 /* PopoverNavigationDismissalAnimationLaunchingContext.swift in Sources */,
+				0DA3A5C377D94981F9BBB12A402EDAD8 /* PopoverNavigationPresentationAnimationContext.swift in Sources */,
+				F4640C9C369CEBA4524979FFC2876E1F /* PopoverNavigationPresentationAnimationLaunchingContext.swift in Sources */,
+				FB67EA5E679ED1CEB279ECC538A9ED73 /* PopoverNavigationTransitionsAnimator.swift in Sources */,
+				5C8DD7083CFCF66A1DE7B595D097BE89 /* PopoverPresentationAnimationContext.swift in Sources */,
+				978D8B32BDCCAE4452BFD07EEE437E99 /* PopoverPresentationAnimationLaunchingContext.swift in Sources */,
+				5DF1D6DE8AD496C39D879A86C5F8D5C1 /* PopoverPresentationRouter.swift in Sources */,
+				AC3B2C0BC287492C1FC448FB8B085935 /* PopoverTransitionsAnimator.swift in Sources */,
+				C45840714BDEFCE0CA646F1C52EF0B21 /* PopoverTransitionStorableParameters.swift in Sources */,
+				C7390392538CCD34C12B0A65A83B5571 /* PopoverTransitionStyle.swift in Sources */,
+				6D8F246D2B0960FD856F04BC9C320191 /* PresentationAnimationLaunchingContextBox.swift in Sources */,
+				A429C64B95E2B07BC42A31E794584C44 /* PresentationTransitionContext.swift in Sources */,
+				95566DECE360B02384DCC2DB925C82A9 /* PresentationTransitionsAnimatorBox.swift in Sources */,
+				11371C9257DAA57088509A739F41CD95 /* PresentationTransitionTargetTransitionsHandlerBox.swift in Sources */,
+				AA34EAC9F2A1D282EF413E72A951A6E6 /* PushAnimationContext.swift in Sources */,
+				B377A480F7D508C7F6D33D506F2DC53D /* PushAnimationLaunchingContext.swift in Sources */,
+				ACF12F5A231194479AF4579116DADDDD /* ResetNavigationTransitionsAnimator.swift in Sources */,
+				6F06FAEC6D79609793B248F1BE943B9B /* ResettingAnimationLaunchingContext.swift in Sources */,
+				C7FEF0CE6B280C529E0FB432CD60AA22 /* ResettingAnimationLaunchingContextBox.swift in Sources */,
+				25921BA45FD04AE6D24339587C2BBFC7 /* ResettingNavigationAnimationContext.swift in Sources */,
+				317E44C43B0855E51A0364482E02D8EF /* ResettingTransitionContext.swift in Sources */,
+				E90B509DA693C36CAA9C986586AE1794 /* ResettingTransitionsAnimatorBox.swift in Sources */,
+				4446C47D22D38A649C32853D8C37CF03 /* ResettingTransitionTargetTransitionsHandlerBox.swift in Sources */,
+				F2ACFC210FEDF4CEF821CE4FD239E39C /* RestoredTransitionContext.swift in Sources */,
+				7220CFCC3707F4FC88D13A8CB429321A /* RestoredTransitionTargetTransitionsHandlerBox.swift in Sources */,
+				C3E4B11BF2A5604C2956292C1E95D04F /* RouterControllersProvider.swift in Sources */,
+				B93B4C898E36721A519C7B072145314A /* RouterControllersProviderHolder.swift in Sources */,
+				A343B9AEEEE4E4050F199D9B8548E48D /* RouterControllersProviderImpl.swift in Sources */,
+				EF3B68A5E904DE1FD166832BA7207900 /* RouterDismissable.swift in Sources */,
+				5D211EE8C7C55CA3B76084D4A01BE334 /* RouterFocusable.swift in Sources */,
+				12ACAB38567466AAFA21A8F04A5E7E6C /* RouterIdentifiable.swift in Sources */,
+				A442DA2E80B20E818699B861F35CF463 /* RouterPresentable.swift in Sources */,
+				958F818572DC62CBC0F658374E1465C0 /* RouterSeed.swift in Sources */,
+				152B9D26C7C760890C88030471C7D361 /* RouterTransitionable.swift in Sources */,
+				B1E0DB7E3FE424056D72841F2DB288F5 /* RouterTransitionsHandlerBox.swift in Sources */,
+				B5DDCBF1F6173DA0FB1112EAF9F01A65 /* SetNavigationTransitionsAnimator.swift in Sources */,
+				525A796858A385D8D2B133E3C02CCACB /* SettingAnimationLaunchingContext.swift in Sources */,
+				85198E128F67536128EF9D5A4683D22F /* SettingNavigationAnimationContext.swift in Sources */,
+				CC8B70E82CE8904A7F90FF8C2C34A7D8 /* SourceAnimationLaunchingContextBox.swift in Sources */,
+				44E50857DE8C77FA4C61B14347526729 /* SplitViewTransitionsHandlerImpl.swift in Sources */,
+				3D3F930B8BC367D380B342E5EF035D23 /* StrongBox.swift in Sources */,
+				04284EF7EA7EA66BA3D8253742185F67 /* StrongPeekAndPopData.swift in Sources */,
+				CDA7AEBB29BADC3FD9859A40BB52756D /* TabBarTransitionsHandlerImpl.swift in Sources */,
+				C46BBF836557D35AE84A2A0D7E3B6010 /* TopViewControllerFinder.swift in Sources */,
+				CE01C7282F31FC7D204D9DA077FF0EC1 /* TransitionAnimationsLauncher.swift in Sources */,
+				84882066478CFD7B1BD4F70AEF9732BB /* TransitionContextsStack.swift in Sources */,
+				09430BC0522AD58E4F1C113A17867D2D /* TransitionContextsStackClient.swift in Sources */,
+				86238454A93005372CD8335C2129E0BA /* TransitionContextsStackClientImpl.swift in Sources */,
+				28B8A46DF88B1B68DF3155B65B39C0F5 /* TransitionContextsStackClientProvider.swift in Sources */,
+				D088E53B68F5FD2096227C3B885C6AD5 /* TransitionContextsStackClientProviderHolder.swift in Sources */,
+				A16F1636771EDA397A5C50CB1CE71C4E /* TransitionContextsStackClientProviderImpl.swift in Sources */,
+				96E61A934C91653D4CC845E94B07CF69 /* TransitionContextsStackImpl.swift in Sources */,
+				4DB0735DDB79C83727CEF99884B42930 /* TransitionId.swift in Sources */,
+				0285CBEC9CFE6BA787FEB8EE838058D1 /* TransitionIdGenerator.swift in Sources */,
+				C5123B0FEBB5D8E01F52DEE296B3B149 /* TransitionIdGeneratorHolder.swift in Sources */,
+				A4B368EA54850676484E4DCA270E8178 /* TransitionIdGeneratorImpl.swift in Sources */,
+				7321367CA3BFE021435C8DBE9B94B636 /* TransitionsAnimator.swift in Sources */,
+				96E5D7E49A4C3E52804890A9FE8FAF0F /* TransitionsCoordinator.swift in Sources */,
+				3B02F3634C025D4B01A300D7A03B65FE /* TransitionsCoordinatorDelegate.swift in Sources */,
+				33AA72582DB268D2CB940A005C802F71 /* TransitionsCoordinatorDelegateHolder.swift in Sources */,
+				8420668E8898D5B818938EBFDE3E90CC /* TransitionsCoordinatorHolder.swift in Sources */,
+				B6A8D2D9E06A52E23E9B66988B56AECD /* TransitionsCoordinatorImpl.swift in Sources */,
+				1A30133CE0C670E05826A4D2F1E1EEF6 /* TransitionsHandler.swift in Sources */,
+				31FC0AE6466C154E43225EF3C352CA7C /* TransitionsHandlerBox.swift in Sources */,
+				2450D6D4AF2DA4509A7A118640663CDB /* TransitionsHandlerContainer.swift in Sources */,
+				2E628B141CAC1B68B6DA728BAB7F0240 /* TransitionsHandlersProvider.swift in Sources */,
+				33D0BDF22F06DEB1E6E6AAD207B30348 /* TransitionsHandlersProviderHolder.swift in Sources */,
+				578C4ECABA83C6E53F8AE7FAE13AA05F /* TransitionsHistoryItem.swift in Sources */,
+				63E4F84EFFA39321042101A9858B33B5 /* TransitionsMarker.swift in Sources */,
+				E274BDD1007F98983D32AEEF0985C358 /* TransitionsMarkersHolder.swift in Sources */,
+				276D12AE86DD45091806CC5CEA25E770 /* TransitionStorableParameters.swift in Sources */,
+				F2120D02EE3FBAA2F01D9B86F9FBDABE /* TransitionsTracker.swift in Sources */,
+				B9F5385E764CC8CA313F94BE02B154AC /* TransitionUserId.swift in Sources */,
+				58645D9D552EAA47600F6C024120E445 /* ViewControllerPosition.swift in Sources */,
+				66DD4362D7B54161BE4389A3C3BA640F /* WeakBox.swift in Sources */,
+				BBA57C969367780C0EAA2E3DDEBC092A /* WeakPeekAndPopData.swift in Sources */,
+				2CC527948B6BDE8D82CFC0D74F47A075 /* WeakTransitionsHandlerBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE76C772996F493935B14C58B8D5659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4AC7F397103414DF8CB260D5C33417 /* Pods-Product Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B6F0B7421EC62606F0D28B01F2F6796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Marshroute;
+			target = FB854FA9F81D151FC150A42B3D3678D6 /* Marshroute */;
+			targetProxy = EAF737587B88CF360B29132D7AC6907C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		155FCBA31799FC6E4B6289FCABE762B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E211E9F9BF168D0FD41AF4EA5224C478 /* Pods-Product Test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Product Test/Pods-Product Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Product Test/Pods-Product Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B19099FD93D5A34D954434D236DEA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041E5AD8512D512D88589FBD753EC6F9 /* Marshroute.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Marshroute/Marshroute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Marshroute/Marshroute-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Marshroute/Marshroute.modulemap";
+				PRODUCT_MODULE_NAME = Marshroute;
+				PRODUCT_NAME = Marshroute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F4193403D9CC6CAD302FC18599A3DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461DCA711DFDA2D68CE9D755370936AC /* Marshroute.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Marshroute/Marshroute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Marshroute/Marshroute-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Marshroute/Marshroute.modulemap";
+				PRODUCT_MODULE_NAME = Marshroute;
+				PRODUCT_NAME = Marshroute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E402C6B64E3C675E450EFE84200CC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A097A9DAD9B82C1F92AEE49B9BE93F /* Pods-Product Test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Product Test/Pods-Product Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Product Test/Pods-Product Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34AD40C005ADF339942C5B4577708CF /* Build configuration list for PBXNativeTarget "Marshroute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B19099FD93D5A34D954434D236DEA1F /* Debug */,
+				5F4193403D9CC6CAD302FC18599A3DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C09CD55C454A96685E6E3DE6F725DF /* Build configuration list for PBXNativeTarget "Pods-Product Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E402C6B64E3C675E450EFE84200CC6D /* Debug */,
+				155FCBA31799FC6E4B6289FCABE762B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

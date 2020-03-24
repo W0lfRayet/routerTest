@@ -1,0 +1,16 @@
+PODS:
+  - Marshroute (0.4.2)
+
+DEPENDENCIES:
+  - Marshroute
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Marshroute
+
+SPEC CHECKSUMS:
+  Marshroute: 15cf8067a997bf298e9db9317dd7c32b8799a787
+
+PODFILE CHECKSUM: a22d1053a51991e906855f8bbe7bc2112c6f358a
+
+COCOAPODS: 1.9.1
